@@ -9,8 +9,11 @@ module.exports = {
       black: "hsl(0, 0%, 7%)",
     },
     extend: {
+      fontFamily: {
+        Figtree: ["Figtree"],
+      },
       boxShadow: {
-        hard: "5px 5px 0px 0px hsl(0, 0%, 7%)",
+        hard: "10px 10px 0px 0px hsl(0, 0%, 7%)",
       },
     },
   },
