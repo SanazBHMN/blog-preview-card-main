@@ -8,7 +8,11 @@ module.exports = {
       grey: "hsl(0, 0%, 50%)",
       black: "hsl(0, 0%, 7%)",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        hard: "5px 5px 0px 0px hsl(0, 0%, 7%)",
+      },
+    },
   },
   plugins: [],
 };
